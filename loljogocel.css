@@ -1,0 +1,176 @@
+a.logoa{
+	margin-left: 0vw;
+	background-color: #1f1f1f;
+}
+div.dentrologo{
+	padding-top: 2vh;
+	padding-right: 3vw;
+	padding-left: 3vw;
+}
+img.logo{
+	float:left;
+	width: 10vw;
+	flex: 1;
+}
+div.menu{
+    overflow: hidden;
+    position: relative;
+    height: 75vw;
+    margin-left: 0%;
+    z-index: 1;
+}
+div.menu div#links{
+    display: none;
+}
+div.menu a{
+    float: none;
+    display: block;
+    border-bottom: solid black 1px;
+    text-align: center;
+    background-color: #454545;
+    margin-top: 0vh;
+    font-size: 5vw;
+    padding: 1.5vw 2vw;
+}
+div.menu a.ev{
+	margin-top: 11vw;
+}
+div.menu a.bot{
+	font-size: 10vw;
+	background-color: transparent;
+	margin-top: 0vh;
+	border-bottom: solid black 0px;
+}
+#busca{
+	margin-left: 0vw;
+}
+header{
+	height: 21vw;
+}
+p{
+	font-size: 4vw;
+	margin: 0 auto;
+}
+section#principal{
+	height: 100%;
+	padding-bottom: 14vh;
+}
+h1#stitulo{
+	font-size: 11vw;
+	color: white;
+	font-family: arial;
+	text-align: center;
+	margin-top: 9vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
+}
+div.grande1{
+	display: flex;
+	margin-top: 3vw;
+	flex-direction: column;
+}
+div.grande2{
+	display: flex;
+	flex-direction: column;
+	margin-top: 7vw;
+}
+div.textosjogos{
+	flex: 1;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+div.imgjogo{
+	flex: 0.80;
+}
+div.textosjogos2{
+	flex: 1;
+	margin-right: 10vw;
+	margin-left: 10vw;
+}
+div.imgjogo2{
+	flex: 0.80;
+}
+p.jogotitle{
+	font-size: 5vw;
+	margin-left: 2vw;
+}
+p.sobrejogo{
+	text-align: justify;
+}
+hr#hrfort{
+	width: 20vw;
+	margin-top: 0.3vw;
+	margin-left: 1.8vw;
+}
+img#fortimg{
+	height: 40vw;
+	margin-left: 0;
+	margin-top: 8vh;
+	border: solid white 3px;
+}
+hr#hrfort2{
+	width: 28.5vw;
+	margin-top: 0.3vw;
+	margin-left: 1.8vw;
+}
+img#fortimg2{
+	height: 60vw;
+	margin-left: 0;
+	margin-top: 8vh;
+	border: solid white 3px;
+	margin-bottom: 2vw;
+}
+hr#hrfort3{
+	width: 29.5vw;
+	margin-top: 0.3vw;
+	margin-left: 1.8vw;
+}
+img#fortimg3{
+	height: 40vw;
+	margin-left: 0;
+	margin-top: 8vh;
+	border: solid white 3px;
+}
+#divca{
+	margin-top: 7vw;
+	margin-right: 12vw;
+	margin-left: 12vw;
+}
+
+
+
+footer{
+	height: 100%;
+}
+div.redessociais{
+	margin-top: 4.2vw;
+	padding-left: 10vw;
+}
+img#twitter{
+	width: 35%;
+}
+img#twitch{
+	width: 35%;
+}
+img#youtube{
+	width: 35%;
+}
+img#instagram{
+	width: 35%;
+}
+a#sobremim{
+	font-size: 6vw;
+	margin-left: 8vw;
+}
+div#sobre{
+	flex:1;
+	padding-top: 8vw;
+	padding-left: 7vw;
+	border-left: solid 0.1vw #c0c0c0;
+}
+p#copy{
+	font-size: 2.5vw;
+	padding-left: 3vw;
+	padding-top: 6vw;
+	bottom: 1vw;
+}

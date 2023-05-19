@@ -1,0 +1,231 @@
+*{
+	margin: 0 auto;
+}
+body{
+	background-color: #1f1f1f;
+	position: relative;
+}
+a{
+	text-decoration: none;
+}
+header a{
+	text-decoration: none;
+}
+a.logoa{
+	margin-left: 21%;
+	background-color: #1f1f1f;
+}
+div.dentrologo{
+	padding-top: 1.7vh;
+	padding-right: 0.5vw;
+	padding-left: 0.5vw;
+	height: 8vh;
+}
+img.logo{
+	float:left;
+	width: 2.2vw;
+	flex: 1;
+}
+div.menu{
+	overflow: hidden;
+	position: relative;
+	flex: 1;
+	height: 6vw;
+	margin-left: 10%;
+}
+div.menu a{
+	text-decoration: none;
+	color:white; 
+	padding: 0.8vw 1.3vw;
+	float: left;
+	font-size: 1.0vw;
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 2vw;
+}
+div.menu a:hover{
+	font-weight: bold;
+	background-color: #6e6e6e;
+}
+div.menu a.bot{
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-radius: 1vw;
+	font-size: 2.1vw;
+	background-color: black;
+	margin-top: 0vh;
+	display: block;
+}
+div.menu div#links{
+	display: block;
+}
+#busca{
+	margin-left: 18vw;
+}
+header{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: black;
+	display: flex;
+	position: relative;
+}
+p{
+	color: white;
+	font-size: 1.2vw;
+	font-family: arial;
+}
+section#principal{
+	height: 100%;
+	padding-bottom: 12vh;
+}
+h1#stitulo{
+	font-size: 3.2vw;
+	color: white;
+	font-family: arial;
+	text-align: center;
+	margin-top: 7vh;
+	margin-bottom: 15vh;
+}
+div.grande1{
+	display: flex;
+	margin-top: 3vw;
+}
+div.grande2{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 7vw;
+	margin-bottom: 7vw;
+}
+div.textosjogos{
+	flex: 1;
+	margin-left: 10vw;
+}
+div.imgjogo{
+	flex: 1;
+}
+div.textosjogos2{
+	flex: 1;
+	margin-right: 10vw;
+}
+div.imgjogo2{
+	flex: 0.80;
+}
+p.jogotitle{
+	font-size: 1.4vw;
+	margin-left: 2vw;
+}
+p.sobrejogo{
+	text-align: justify;
+}
+hr#hrfort{
+	width: 6vw;
+	margin-top: 0.3vw;
+	margin-left: 1.8vw;
+}
+img#fortimg{
+	height: 16vw;
+	margin-top: 2vw;
+	margin-left: 5vw;
+	border: solid white 3px;
+}
+hr#hrfort2{
+	width: 8.2vw;
+	margin-top: 0.3vw;
+	margin-left: 1.8vw;
+}
+img#fortimg2{
+	height: 16vw;
+	margin-left: 8vw;
+	border: solid white 3px;
+}
+
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+div#ultimo{
+	height: 0.20639834881320948vh;
+	width: 100%;
+}
+div#dentro{
+	height: 0.20639834881320948vh;
+	width: 95%;
+	background-color: #c0c0c0;
+	border-radius: 0.1vw;
+}
+section#rodape{
+	display: flex;
+}
+div.redessociais{
+	margin-top: 1vw;
+	padding-left: 10vw;
+}
+img#twitter{
+	width: 15%;
+	position: relative;
+}
+img#twitter:hover{
+	filter: saturate(120%);
+	filter: brightness(120%);
+}
+img#twitch{
+	width: 15%;
+}
+img#twitch:hover{
+	filter: saturate(120%);
+	filter: brightness(120%);
+}
+img#youtube{
+	width: 15%;
+}
+img#youtube:hover{
+	filter: saturate(120%);
+	filter: brightness(120%);}
+img#instagram{
+	width: 15%;
+}
+img#instagram:hover{
+	filter: saturate(120%);
+	filter: brightness(120%);
+}
+a#sobremim{
+	text-decoration: none;
+	font-family: calibri;
+	color: white;
+	font-size: 2vw;
+	margin-left: 1.5vw;
+}
+a#sobremim:hover{
+	color: #80ecff;
+}
+div#tudo{
+	flex:0.5;
+	height: 100%;
+	background-color: black;
+	margin: 2vh;
+}
+div#sobre{
+	flex:1;
+	padding-top: 3vw;
+	border-left: solid 0.1vw #c0c0c0;
+	margin-left: 10vw;
+	padding-left: 20vw;
+	background-color: black;
+	position: relative;
+}
+p#copy{
+	font-size: 0.8vw;
+	text-align:left;
+	position: absolute;
+	bottom: 0.3vw;
+}

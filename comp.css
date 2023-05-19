@@ -1,0 +1,214 @@
+*{
+	margin: 0 auto;
+}
+body{
+	background-color: #1f1f1f;
+	position: relative;
+}
+section#principal{
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding-bottom: 9vh;
+	position: relative;
+}
+header a{
+	text-decoration: none;
+}
+a.logoa{
+	margin-left: 21%;
+	background-color: #1f1f1f;
+}
+div.dentrologo{
+	padding-top: 1.7vh;
+	padding-right: 0.5vw;
+	padding-left: 0.5vw;
+	height: 8vh;
+}
+img.logo{
+	float:left;
+	width: 2.2vw;
+	flex: 1;
+}
+div.menu{
+	overflow: hidden;
+	position: relative;
+	flex: 1;
+	height: 6vw;
+	margin-left: 10%;
+}
+div.menu a{
+	text-decoration: none;
+	color:white; 
+	padding: 0.8vw 1.3vw;
+	float: left;
+	font-size: 1.0vw;
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 2vw;
+}
+div.menu a:hover{
+	font-weight: bold;
+	background-color: #6e6e6e;
+}
+div.menu a.bot{
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-radius: 1vw;
+	font-size: 2.1vw;
+	background-color: black;
+	margin-top: 0vh;
+	display: block;
+}
+div.menu div#links{
+	display: block;
+}
+#busca{
+	margin-left: 18vw;
+}
+header{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: black;
+	display: flex;
+	position: relative;
+}
+h1#titulo{
+	font-size: 2.2vw;
+	color: white;
+	font-family: arial;
+	text-align: center;
+	margin-top: 4vh;
+}
+div#img{
+	margin-top: 4vh;
+	width: 65%;
+}
+img.esports{
+	border-radius: 0.5vw;
+	width: 100%;
+}
+p{
+	color: white;
+	text-align: center;
+	font-size: 1.2vw;
+	font-family: arial;
+}
+p#texto1{
+	padding-top: 5vw;
+	color: white;
+	text-align: justify;
+	font-weight: normal;
+	font-family: arial;
+}
+section#texto{
+	width: 50%;
+	margin-left: 3.125vw;
+	flex: 1;
+	margin-right: 1.5625vw;
+}
+section#fotobugha{
+	width: 20.833333333333332vw;
+	height: 100%;
+}
+img#bugha{
+	flex:0.75;
+	margin-left: 1.0416666666666667vw;
+	margin-top: 1.5625vw;
+	width: 20.833333333333332vw;
+	border-radius: 0.5vw;
+}
+section#grande{
+	display: flex;
+	flex-direction: row;
+	margin-top: 3vh;
+	height: 100%;
+}
+div{
+	flex: 0.15
+}
+footer{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+div#ultimo{
+	height: 0.20639834881320948vh;
+	width: 100%;
+}
+div#dentro{
+	height: 0.20639834881320948vh;
+	width: 95%;
+	background-color: #c0c0c0;
+	border-radius: 0.1vw;
+}
+div.redessociais{
+	margin-top: 1vw;
+	padding-left: 10vw;
+}
+img#twitter{
+	width: 15%;
+	position: relative;
+}
+img#twitter:hover{
+	filter: saturate(120%);
+	filter: brightness(120%);
+}
+img#twitch{
+	width: 15%;
+}
+img#twitch:hover{
+	filter: saturate(120%);
+	filter: brightness(120%);
+}
+img#youtube{
+	width: 15%;
+}
+img#youtube:hover{
+	filter: saturate(120%);
+	filter: brightness(120%);}
+img#instagram{
+	width: 15%;
+}
+img#instagram:hover{
+	filter: saturate(120%);
+	filter: brightness(120%);
+}
+a#sobremim{
+	text-decoration: none;
+	font-family: calibri;
+	color: white;
+	font-size: 2vw;
+	margin-left: 1.5vw;
+}
+a#sobremim:hover{
+	color: #80ecff;
+}
+section#rodape{
+	display: flex;
+}
+div#tudo{
+	flex:0.5;
+	height: 100%;
+	background-color: black;
+	margin: 2vh;
+}
+div#sobre{
+	flex:1;
+	padding-top: 3vw;
+	border-left: solid 0.1vw #c0c0c0;
+	margin-left: 10vw;
+	padding-left: 20vw;
+	background-color: black;
+	position: relative;
+}
+p#copy{
+	font-size: 0.8vw;
+	text-align:left;
+	position: absolute;
+	bottom: 0.3vw;
+}

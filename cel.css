@@ -1,0 +1,135 @@
+a.logoa{
+	margin-left: 0vw;
+	background-color: #1f1f1f;
+}
+div.dentrologo{
+	padding-top: 2vh;
+	padding-right: 3vw;
+	padding-left: 3vw;
+	height: 14vh;
+}
+img.logo{
+	float:left;
+	margin-top: 0.2vw;
+	width: 10vw;
+	flex: 1;
+}
+div.menu{
+    overflow: hidden;
+    position: relative;
+    height: 75vw;
+    margin-left: 0%;
+    z-index: 1;
+}
+div.menu div#links{
+    display: none;
+}
+div.menu a{
+    float: none;
+    display: block;
+    border-bottom: solid black 1px;
+    text-align: center;
+    background-color: #454545;
+    margin-top: 0vh;
+    font-size: 5vw;
+    padding: 1.5vw 2vw;
+}
+div.menu a.ev{
+	margin-top: 11vw;
+}
+div.menu a.bot{
+	font-size: 10vw;
+	background-color: transparent;
+	margin-top: 0vh;
+	border-bottom: solid black 0px;
+}
+#busca{
+	margin-left: 0vw;
+}
+img.esports{
+	border-radius: 4vw;
+	width: 100%;
+}
+div#img{
+	width: 90%;
+	padding-top: 11vw;
+	padding-bottom: 1.0417vw;
+}
+section#principal{
+	display: all;
+	padding-bottom: 20vh;
+}
+
+section#grande{
+	display: flex;
+	flex-direction: column;
+}
+img#bugha{
+	width: 75vw;
+	margin-left: 0vw;
+}
+section#texto{
+	margin: 0 auto;
+	width: 90%;
+	flex: 1;
+}
+section#fotobugha{
+	margin-top: 6vw;
+	width: 75vw;
+}
+p{
+	font-size: 5.4vw;
+}
+h1#titulo{
+	text-align: center;
+	font-size: 5.4vw;
+}
+p#texto1{
+	padding-top: 4.7314453125vw;
+	color: white;
+	text-align: justify;
+	font-size: 4.4vw;
+	font-family: arial;
+}
+header{
+	height: 21vw;
+}
+h1{
+	padding-top: 5vw;
+	font-size: 15vw;
+}
+footer{
+	height: 100%;
+}
+div.redessociais{
+	margin-top: 4.2vw;
+	padding-left: 10vw;
+}
+img#twitter{
+	width: 35%;
+}
+img#twitch{
+	width: 35%;
+}
+img#youtube{
+	width: 35%;
+}
+img#instagram{
+	width: 35%;
+}
+a#sobremim{
+	font-size: 6vw;
+	margin-left: 8vw;
+}
+div#sobre{
+	flex:1;
+	padding-top: 8vw;
+	padding-left: 7vw;
+	border-left: solid 0.1vw #c0c0c0;
+}
+p#copy{
+	font-size: 2.5vw;
+	padding-left: 3vw;
+	padding-top: 6vw;
+	bottom: 1vw;
+}
